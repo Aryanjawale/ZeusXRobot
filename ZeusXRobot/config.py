@@ -26,7 +26,7 @@ class Config(object):
     REM_BG_API_KEY = "dxsh728mZMDmj4ijSZCNPZig"
     TEMP_DOWNLOAD_DIRECTORY = "./"
     EVENT_LOGS = -1001197394366  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    SQLALCHEMY_DATABASE_URI = '' #do you hub your old heroku app database_URL then put here, most use 25days ago sql
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:qm59vitoitrQmUbndk82@containers-us-west-13.railway.app:6646/railway' #do you hub your old heroku app database_URL then put here, most use 25days ago sql
     LOAD = [] #try to kang this db ur big mothersfuckers i know your noob so only kanging my db
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = None
